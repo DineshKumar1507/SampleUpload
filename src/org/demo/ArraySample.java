@@ -1,11 +1,14 @@
 
 package org.demo;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class ArraySample {
 
 	public static void main(String[] args) {
 		 int a[][]=new int[2][3];
-		 
+		 ArraySample.methode1();
 		 a[0][0]=10;
 		 a[0][1]=20;
 		 a[0][2]=30;
@@ -29,8 +32,10 @@ System.out.println();
 }
 
 
-		
+
 		
 	}
-
+public static void methode1() {
+	System.out.println("code recorrect clone code");
+}
 }
